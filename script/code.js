@@ -24,7 +24,32 @@
 
 // How to create a function called fullName that returns your full name and displays it on the console.
 
+
+
+// Question 1
 function fullName(name) {
     console.log(name);
 };
 fullName("Keeno Fourie");
+
+
+// Question 2
+let firstName = "Keeno";
+let lastName = "Fourie"; 
+let age = 18;
+let subjects = [
+    "Math",
+    "English",
+    "Afrikaans",
+    "Life Orientation",
+    "Physical Science",
+    "Life Science",
+    "Accounting",
+];
+let address = "46 Clover Crescent, Silvertown, Athlone, Cape Town, South Africa"
+
+console.log(firstName);
+console.log(lastName);
+console.log(age);
+console.log(subjects);
+console.log(address);
