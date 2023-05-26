@@ -53,3 +53,31 @@ console.log(lastName);
 console.log(age);
 console.log(subjects);
 console.log(address);
+
+
+// Question 3
+function calculate() {
+        
+        
+        let num1 = +document.querySelector(".num1").value
+        let num2 = +document.querySelector(".num2").value
+        let ops = document.querySelector(".ops").value
+        let result = document.querySelector(".input_answer")
+        
+        if(ops == "+"){
+                result.innerText = num1 + num2;
+            }
+            
+        else if(ops == "-"){
+                result.innerText = num1 - num2;
+            }
+            
+        else if(ops == "/"){
+                result.innerText = num1 / num2;
+            }
+        
+        else if(ops == "*"){
+                result.innerText = num1 * num2;
+            }
+        
+}
