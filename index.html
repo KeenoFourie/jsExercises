@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>JS Exercise</title>
 </head>
 <body>
+
+    <div class="container">
+        <div class="number_1">
+            <label for="numb1"><h4>Number 1:</h4></label>
+            <input type="text" class="num1" name="numb1">
+        </div>
+        <div class="operator">
+            <label for="operational"><h4>Operators:</h4></label>
+            <input type="text" class="ops" name="operational">
+        </div>
+        <div class="number_2">
+            <label for="numb2"><h4>Number 2:</h4></label>
+            <input type="text" class="num2" name="numb2">
+        </div>
+        <button class="answerCal" onclick="calculate()">Calculate</button>
+        <div class="display">
+            <h4 class="answer">Answer:</h4>
+            <h3 class="input_answer"><b></b></h3>
+        </div>
+    </div>
     
 
-    <script src="./script/code.js"></script>
-</body>
+<script src="./script/code.js"></script></body>
 </html>
