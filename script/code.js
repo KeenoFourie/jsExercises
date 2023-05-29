@@ -81,3 +81,18 @@ function calculate() {
             }
         
 }
+
+
+// Question 4
+let subject = "Programming"
+
+function reverseString(subject) {
+        let reversedString = "";                                //empty string that will have the new reversed string
+        for (let i = subject.length - 1; i >= 0; i--) {         //create for loop(for loop repeats until condition is not true)
+        reversedString += subject[i];                           //start of loop will be -1(last character)
+        }
+        return reversedString;                                  //Return Reversed string
+}
+console.log(reverseString("Programming"));                      //display reversed string in console
+
+
