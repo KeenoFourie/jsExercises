@@ -84,8 +84,13 @@ function calculate() {
 
 
 // Question 4
-let subject = "Programming"
 
+        // Joels way
+let subject = "Programming"
+console.log(subject.split("").reverse().join(""));                 // puts each letter in an array(splits string into substrings)
+                                                                   // reverse only works with arrays
+                                                                   // join the string together in reverse
+        // My way
 function reverseString(subject) {
         let reversedString = "";                                //empty string that will have the new reversed string
         for (let i = subject.length - 1; i >= 0; i--) {         //create for loop(for loop repeats until condition is not true)   //start of loop will be -1(last character)   //displays all the numbers
